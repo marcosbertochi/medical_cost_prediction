@@ -33,7 +33,7 @@ def main():
     if st.button("Predict"):
 
         #load pickled model
-        model = pickle.load(open('model\\model_medical_cost_prediction.pkl', 'rb'))
+        model = pickle.load(open('model/model_medical_cost_prediction.pkl', 'rb'))
 
         #instantiate class
         pipeline = MedicalCosts()

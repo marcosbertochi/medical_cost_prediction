@@ -9,9 +9,9 @@ class MedicalCosts(object):
     def __init__(self):
         #initiate scalers
         self.home_path = ''
-        self.age_scaler =   pickle.load(open(self.home_path+'parameters\\age_scaler.pkl','rb'))
-        self.bmi_scaler =   pickle.load(open(self.home_path+'parameters\\bmi_scaler.pkl','rb'))
-        self.children_scaler =   pickle.load(open(self.home_path+'parameters\\children_scaler.pkl','rb'))
+        self.age_scaler =   pickle.load(open(self.home_path+'parameters/age_scaler.pkl','rb'))
+        self.bmi_scaler =   pickle.load(open(self.home_path+'parameters/bmi_scaler.pkl','rb'))
+        self.children_scaler =   pickle.load(open(self.home_path+'parameters/children_scaler.pkl','rb'))
 
 
     def data_cleaning(self,df):
